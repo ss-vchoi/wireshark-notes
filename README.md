@@ -3,8 +3,6 @@ From https://github.com/scrapy/scrapy/issues/4368
 
 This is done by LD_PRELOAD hooking openssl.
 
-So we need to have our SSL library's header files:
-
 ## Install required library
 ```
 sudo apt install libssl-dev
